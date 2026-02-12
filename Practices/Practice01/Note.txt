@@ -1,0 +1,2 @@
+What is a repository?
+The repository is like a folder.
