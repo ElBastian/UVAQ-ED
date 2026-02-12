@@ -15,3 +15,46 @@
 
 6.𝘞𝘩𝘢𝘵 𝘤𝘰𝘮𝘮𝘢𝘯𝘥 𝘴𝘩𝘰𝘶𝘭𝘥 𝘐 𝘶𝘴𝘦 𝘵𝘰 𝘶𝘱𝘭𝘰𝘢𝘥 𝘤𝘩𝘢𝘯𝘨𝘦𝘴 𝘵𝘰 𝘎𝘪𝘵𝘏𝘶𝘣? 
 𝘎𝘪𝘵 𝘱𝘶𝘴𝘩
+
+commit cfa8784ffc38111ca6e3652fc02e3f4388ee7140 (HEAD -> main)
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 09:10:19 2026 -0600
+
+    sixth question done.
+
+commit c277eb46b2548970a5e9604c0fcb567e8acd0455
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 09:09:30 2026 -0600
+
+    fifth question done.
+
+commit 85002494525746706617234cc274c134b7ec39ad
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 08:59:36 2026 -0600
+
+    Fourth question done
+
+commit e30d3f09d6e868f8f269908b826293ac9aa12aea
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 08:49:50 2026 -0600
+
+    Third question done
+
+commit c039de20f6d2f758dcc2b00690f0ca3113c5105d
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 08:39:19 2026 -0600
+
+    Second question done.
+
+commit 6165c8e9b16e7fd90efef19490f3ff001aebce70
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 08:31:36 2026 -0600
+
+    First question done.
+
+commit edd53c98db4dd2d954234ec677b886a5e37f399a
+Author: ElBastian <s.shamed.lara@gmail.com>
+Date:   Thu Feb 12 08:24:32 2026 -0600
+
+    New folder, name: Practices
+(END)
