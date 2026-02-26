@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("ToDo List");
-        frame.setSize(800, 500);
+        frame.setSize(800, 600);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         String[] columns = {"Task", "Details", "Date"};
         tablel = new DefaultTableModel(columns, 0) {
@@ -17,7 +17,7 @@ public class Main {
         };
         table = new JTable(tablel);
         JTextField taskInput = new JTextField(10);
-        JTextField detailsInput = new JTextField(15);
+        JTextField detailsInput = new JTextField(15);   
         JTextField dateInput = new JTextField(8);
         JButton addButton = new JButton("Add");
         addButton.addActionListener(e -> {
