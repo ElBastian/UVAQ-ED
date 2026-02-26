@@ -48,13 +48,13 @@ public class mainB extends JFrame {
             }
         });
         btnAddSong.addActionListener(e -> {
-            String titulo = JOptionPane.showInputDialog(this, "Song title:");
-            if (titulo != null && !titulo.isEmpty()) {
-                String artista = JOptionPane.showInputDialog(this, "Artist:");
-                String duracion = JOptionPane.showInputDialog(this, "Time:");
+            String title = JOptionPane.showInputDialog(this, "Song title:");
+            if (title != null && !title.isEmpty()) {
+                String artist = JOptionPane.showInputDialog(this, "Artist:");
+                String time = JOptionPane.showInputDialog(this, "Time:");
                 
-                String cancionCompleta = titulo + " - " + artista + " (" + duracion + ")";
-                listModel.addElement(cancionCompleta); 
+                String completSong = title + " - " + artist + " (" + time + ")";
+                listModel.addElement(completSong); 
             }
         });
         background = new JLabel();
