@@ -22,22 +22,18 @@ public class mainB extends JFrame {
         principalPane.setPreferredSize(new Dimension(Wid, Hei));
 
         infoSeleccion = new JLabel("");
-
         infoSeleccion.setBounds(40, 500, 400, 30); //270, 485, 400, 30
         infoSeleccion.setForeground(Color.WHITE);
         infoSeleccion.setFont(new Font("Arial", Font.BOLD, 14));
-
         JButton btnPause = new JButton();
         btnPause.setBounds(810, 340, 75, 75); 
         btnPause.setOpaque(false);
         btnPause.setContentAreaFilled(false);
         btnPause.setBorderPainted(false);
-
         JButton btnAddSong = new JButton();
         btnAddSong.setBounds(380, 35, 280, 40); //370, 35, 280, 40
         btnAddSong.setOpaque(false);
         btnAddSong.setContentAreaFilled(false);
-
         listModel = new DefaultListModel<>();
         songList = new JList<>(listModel);
         songList.setBounds(50, 150, 160, 350); 
@@ -45,14 +41,12 @@ public class mainB extends JFrame {
         songList.setBackground(new Color(0, 0, 0, 0)); 
         songList.setForeground(Color.WHITE); 
         songList.setFont(new Font("Arial", Font.BOLD, 12));
-
         songList.addListSelectionListener(e -> {
             if (!e.getValueIsAdjusting()) {
                 String select = songList.getSelectedValue();
                 infoSeleccion.setText(select);
             }
         });
-
         btnAddSong.addActionListener(e -> {
             String titulo = JOptionPane.showInputDialog(this, "Song title:");
             if (titulo != null && !titulo.isEmpty()) {
