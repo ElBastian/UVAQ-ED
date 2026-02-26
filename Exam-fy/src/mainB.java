@@ -6,7 +6,7 @@ public class mainB extends JFrame {
     private nodeB currentImage;
     private DefaultListModel<String> listModel; 
     private JList<String> songList;
-    private JLabel infoSeleccion; 
+    private JLabel infoSelection; 
     private final int Wid = 1000;
     private final int Hei = 560;
 
@@ -21,10 +21,10 @@ public class mainB extends JFrame {
         principalPane.setLayout(null);
         principalPane.setPreferredSize(new Dimension(Wid, Hei));
 
-        infoSeleccion = new JLabel("");
-        infoSeleccion.setBounds(40, 500, 400, 30); //270, 485, 400, 30
-        infoSeleccion.setForeground(Color.WHITE);
-        infoSeleccion.setFont(new Font("Arial", Font.BOLD, 14));
+        infoSelection = new JLabel("");
+        infoSelection.setBounds(40, 500, 400, 30); //270, 485, 400, 30
+        infoSelection.setForeground(Color.WHITE);
+        infoSelection.setFont(new Font("Arial", Font.BOLD, 14));
         JButton btnPause = new JButton();
         btnPause.setBounds(810, 340, 75, 75); 
         btnPause.setOpaque(false);
@@ -44,7 +44,7 @@ public class mainB extends JFrame {
         songList.addListSelectionListener(e -> {
             if (!e.getValueIsAdjusting()) {
                 String select = songList.getSelectedValue();
-                infoSeleccion.setText(select);
+                infoSelection.setText(select);
             }
         });
         btnAddSong.addActionListener(e -> {
@@ -66,7 +66,7 @@ public class mainB extends JFrame {
             actualizarFondo();
         });
         principalPane.add(songList);
-        principalPane.add(infoSeleccion);
+        principalPane.add(infoSelection);
         principalPane.add(btnPause);
         principalPane.add(btnAddSong);
         principalPane.add(background);
@@ -77,7 +77,7 @@ public class mainB extends JFrame {
         setVisible(true);
     }
     private void actualizarFondo() {
-        ImageIcon icon = new ImageIcon(currentImage.imagePath);
+        ImageIcon icon = new ImageIcon(currentImage.imageB);
         Image img = icon.getImage().getScaledInstance(Wid, Hei, Image.SCALE_SMOOTH);
         background.setIcon(new ImageIcon(img));
     }

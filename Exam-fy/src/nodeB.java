@@ -1,10 +1,10 @@
 public class nodeB {
-    String imagePath;
+    String imageB;
     String songData;
     nodeB next;
 
     public nodeB(String imagePath) {
-        this.imagePath = imagePath;
+        this.imageB = imagePath;
         this.next = null;
     }
 }
