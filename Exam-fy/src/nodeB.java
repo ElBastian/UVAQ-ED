@@ -1,6 +1,5 @@
 public class nodeB {
     String imageB;
-    String songData;
     nodeB next;
 
     public nodeB(String imagePath) {
